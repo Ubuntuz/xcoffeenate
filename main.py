@@ -6,15 +6,16 @@ reliabilityCoeff = 0.03
 skillCoeff = 0.3
 
 #Track Inputs (currently set to default values)
-lapRecord = 90
-lapVariance = 15
-trackAcceleration = 5
-trackCornering = 5
+lapRecord = input("Lap Record:")
+lapVariance = input("Lap Variance:")
+trackAcceleration = input("Track Acceleration:")
+trackCornering = input("Track Cornering:")
 
 #User Inputs
-reliability = 5
-acceleration = 5
-cornering = 5
+reliability = input("Car Reliability:")
+acceleration = input("Car Acceleration:")
+cornering = input("Car Cornering:")
 
+#the 1 after math.pow needs to be changed to a random number between 0.1 and 1
 lapTime = lapRecord + lapVariance * math.pow(1 * randCoeff + randOffset, skillCoeff * (acceleration * trackAcceleration + cornering * trackCornering) / (trackAcceleration + trackCornering));
 
