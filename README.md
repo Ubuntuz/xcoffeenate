@@ -8,8 +8,10 @@ Once you've installed Node, clone this repo.
 
 Open `terminal` or `cmd` and navigate to the root of the project.
 
+Input `npm install -g gulp` to install the build system.
+
 Input `npm install` and let Node do it's magic.
 
-You can now trigger builds by typing `gulp build` (And see a complete list of tasks available in the build system by typing `gulp`).
+You can now trigger builds by using the command `gulp build` (And see a complete list of tasks available in the build system by using the command `gulp`).
 
 The built files will be put in a folder called `/build/` - Open the `index.html` file there, and you can use the sim.
