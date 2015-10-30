@@ -23,4 +23,3 @@ lapTime = trackRecord + trackVariance * pow1 ** pow2
 
 console.log 'Rand', rand
 console.log 'lapTime', lapTime
-console.log 'lapTimePy', lapTimePy
