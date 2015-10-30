@@ -5,7 +5,7 @@ randOffset = 0.6
 reliabilityCoeff = 0.03
 skillCoeff = 0.3
 
-#Track Inputs (currently set to default values)
+#Track Inputs 
 lapRecord = input("Lap Record:")
 lapVariance = input("Lap Variance:")
 trackAcceleration = input("Track Acceleration:")
